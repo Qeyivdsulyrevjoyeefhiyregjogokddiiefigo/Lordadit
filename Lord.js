@@ -118,7 +118,7 @@ let numbernye = "0"
 let simbolnya = "•"
 let petik = '```'
 let enter = '\n'
-let notnot = `NOTE:${enter}Jika whatsapp mod kamu belum support button silahkan tonton video ini https://youtu.be/ERGID4Fmo9w`
+let notnot = `NOTE:${enter}Jika whatsapp mod kamu belum support button silahkan tonton video ini https://youtu.be/pm358HcU8eM`
 let url_gif = setting.url_gif
 let public_mode = setting. public_mode
 let mlistmsg = false 
@@ -439,7 +439,7 @@ var waktoo = date.getHours();
   		      var ucapannya = `Night 🌚 ${pushname}`
 				}
 				mess = {
-					wait: 'Proses Lord..',
+					wait: 'Loading...',
 					limit: 'Limit kamu habis lord , Silahkan beli dengan #buylimit <nominal> atau minta gift dari user lain',
 					sewabot: ` 「 *SEWA BOT* 」 \n\nBerikut list sewa bot kami
 
@@ -3137,7 +3137,7 @@ let qqppp = [{
                     },
                     "type": "RESPONSE"
                 }]
-                sendButLocation(from, teks, `LordUserbot™© | Allright Reserved.`, thumbnail, qqppp, {contextInfo: { mentionedJid: [nupe]}})
+                sendButLocation(from, teks, `Reteam.id | https://youtu.be/pm358HcU8eM`, thumbnail, qqppp, {contextInfo: { mentionedJid: [nupe]}})
 				
 } catch (e){
 reply(`${e}`)
