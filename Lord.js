@@ -127,7 +127,7 @@ let nopref = false
 let autovn = false
 let ngetik = false
 let menusimple = false
-let Mloc = false
+let Mloc = true
 let autoregister = setting.user_register
 let autorespon = setting.autorespon
 let thumbnail = fs.readFileSync(`./image/${setting.thumbnail}`)
@@ -452,11 +452,11 @@ Minat? Pm wa.me/${owner_number}`,
 					errorLink: 'Link Error Lord',
 					succes: '```[ ✓ ]``` Sukses Lord',
 					only: {
-						personal: 'Only Private Chat Lord',
-						admin: 'Khusus Admin Group Lord',
-						group: 'Khusus Dalam Grup Lord',
-						 prem: 'Khusus User Premium Lord',
-						owner: 'Khusus Owner Bot Lord',
+						personal: 'Only Private Chat',
+						admin: 'Khusus Admin Group',
+						group: 'Khusus Dalam Grup',
+						 prem: 'Khusus User Premium',
+						owner: 'Khusus Owner Bot',
 						 }
 					} 
 	    const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net",   "remoteJid": "6289523258649-1604595598@g.us"  }, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: thumbnail, surface: 200, message: `「 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 」\n${runtime2}`, orderTitle: 'zeeoneofc', sellerJid: '0@s.whatsapp.net'}}, sendEphemeral: true}
